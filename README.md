@@ -140,16 +140,29 @@ Then deactivated and reactivated the network connection:
 
 The address was used within the controlled virtual lab. Disabling duplicate-address-detection waiting is a troubleshooting workaround, not a replacement for ensuring that IP addresses are unique.
 
+
 ## 6. Project Evidence
 
-Screenshots will be organized under the `screenshots/` directory to document:
+The following screenshots document the successful implementation and verification of the cybersecurity lab environment.
 
-- VirtualBox virtual machine configuration
-- NAT Network settings
-- Kali Linux static IP configuration
-- Successful connectivity tests
-- Shared folder configuration
-- VirtualBox snapshot
+### VirtualBox and Kali Linux Setup
+![VirtualBox Setup](screenshots/01-virtualbox-setup.png)
+
+### NAT Network Configuration
+![NAT Network](screenshots/02%20%E2%80%94%20NAT%20Network.png)
+
+### Kali Linux Static IP Configuration
+![Static IP Configuration](screenshots/03-kali-static-ip.png)
+
+### Network Connectivity and DNS Tests
+![Connectivity Tests](screenshots/04-connectivity-tests.png)
+
+### Shared Folder Verification
+![Shared Folder](screenshots/05-shared-folder.png)
+
+### Virtual Machine Snapshot
+![Snapshot](screenshots/06-snapshot.png)
+
 
 ## 7. Key Learning Outcomes
 
